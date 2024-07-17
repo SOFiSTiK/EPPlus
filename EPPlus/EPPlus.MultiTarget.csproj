@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;netstandard2.0;net35;net40</TargetFrameworks>
-    <AssemblyVersion>4.5.3.3</AssemblyVersion>
-    <FileVersion>4.5.3.3</FileVersion>
-    <Version>4.5.3.3</Version>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyVersion>4.5.3.4</AssemblyVersion>
+    <FileVersion>4.5.3.4</FileVersion>
+    <Version>4.5.3.4</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/JanKallman/EPPlus</PackageProjectUrl>
-    <Authors>Jan Källman</Authors>
+    <PackageProjectUrl>https://github.com/SOFiSTiK/EPPlus</PackageProjectUrl>
+    <Authors>SOFiSTiK AG</Authors>
     <Company></Company>
     <Product>EPPlus</Product>
     <Description>Create advanced Excel spreadsheets using .NET</Description>
@@ -16,8 +16,11 @@
     <RootNamespace>EPPlus</RootNamespace>
     <RepositoryUrl></RepositoryUrl>
     <PackageTags>Excel ooxml</PackageTags>
-    <Copyright>Jan Källman 2020</Copyright>
+    <Copyright></Copyright>
     <PackageReleaseNotes>
+      # EPPlus 4.5.3.3
+      Removed dependency to ASPNET
+      
       # EPPlus 4.5.3.3
 
       ## Announcement: This is the last version of EPPlus under the LGPL License
@@ -295,7 +298,7 @@ Release Candidate changes
     <PackageReference Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
     <PackageReference Include="System.Data.Common" Version="4.3.0" />
     <PackageReference Include="System.Drawing.Common">
-      <Version>4.7.0</Version>
+      <Version>4.7.2</Version>
     </PackageReference>
     <PackageReference Include="System.Reflection" Version="4.3.0" />
     <PackageReference Include="System.Security.Claims" Version="4.3.0" />
